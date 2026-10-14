@@ -107,8 +107,7 @@ let studentName="", studentClass="", studentSchool="";
 
 // DÁN URL Web App của Google Apps Script vào đây sau khi triển khai.
 const TRACKING_URL = "https://script.google.com/macros/s/AKfycbzOZoVWAk53xV80AixG52KPMz29qqCWGkHHP4jjDQaf1u57NqSBm0vUlUErALxpoAQt/exec";
-// Lưu ý: tên sheet và tên cột tiếng Việt được thiết lập trong Google Apps Script.
-// HTML gửi các trường hoTen, lop, truong, event, score, info đến doPost(e).
+
 const sessionId = (window.crypto && crypto.randomUUID)
   ? crypto.randomUUID()
   : "quiz-" + Date.now() + "-" + Math.random().toString(36).slice(2);
